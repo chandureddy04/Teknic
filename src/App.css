@@ -14,25 +14,108 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #000;
+  position: fixed;
+  min-height: 50px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: #ddd;
+  z-index: 100;
+}
+
+
+.logo {
+  margin-left: 2rem;
+}
+
+.link {
+  font-size: 1rem;
+  padding: 0 1rem;
+  text-decoration: none;
+  color: #ddd;
+}
+
+.caption {
+  position: absolute;
+  left: 10%;
+  top: 60%;
+  font-size: xx-large;
+  background-color: #ddd;
+  padding: 2rem;
+  text-align: left;
+}
+
+.About {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ddd;
+}
+
+.about_caption {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: left;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.about_title {
+  font-size: xxx-large;
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  background-color: #000;
+  color: #ddd;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+}
+
+.about_footer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 3rem;
+}
+
+.contact_footer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 3rem;
+}
+
+.title_footer {
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.line {
+  height: 0.5rem;
+  width: 100px;
+  margin: 2rem 0;
+  background-color: red;
+  border-radius: 0.25rem;
+}
+
+.info_footer {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+}
+
+.services {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
