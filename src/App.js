@@ -47,7 +47,7 @@ function App() {
       </div>
       <div className='About' id='about' style={{ height: '99vh', width: '100vw' }}>
         <div className='about_caption'>
-          {/* <img src={steelImage} width={400} height={400} /> */}
+          {/* <img src={steelImage} alt="teknicsteel" width={400} height={400} /> */}
           <ImageCarousel images={images} />
         </div>
         <div className='about_caption' style={{ width: '50%' }}>
