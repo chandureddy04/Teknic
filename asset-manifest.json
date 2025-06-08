@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/chandureddy04/Teknic/static/css/main.4d150e04.css",
+    "main.js": "/chandureddy04/Teknic/static/js/main.b3ee09cd.js",
+    "static/media/SteelImage2.png": "/chandureddy04/Teknic/static/media/SteelImage2.cfe04fe86f5066e9ca94.png",
+    "static/media/SteelImage1.png": "/chandureddy04/Teknic/static/media/SteelImage1.3ef1726f202d68b79bef.png",
+    "static/media/steelstructure.jpg": "/chandureddy04/Teknic/static/media/steelstructure.badb05baf42973078e60.jpg",
+    "static/media/SDSImage.png": "/chandureddy04/Teknic/static/media/SDSImage.3f9f35cfc6cd264d7558.png",
+    "static/media/SteelImage3.png": "/chandureddy04/Teknic/static/media/SteelImage3.85aea55087789c9e406d.png",
+    "index.html": "/chandureddy04/Teknic/index.html",
+    "main.4d150e04.css.map": "/chandureddy04/Teknic/static/css/main.4d150e04.css.map",
+    "main.b3ee09cd.js.map": "/chandureddy04/Teknic/static/js/main.b3ee09cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d150e04.css",
+    "static/js/main.b3ee09cd.js"
+  ]
+}
